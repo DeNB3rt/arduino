@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        
+        <link rel="stylesheet" type="text/css" href="css/jquery.css" />
+        
+        
+        <script type="text/javascript" src="js/webservice.js"></script>
+	<script type="text/javascript" src="js/reusable.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquerymobile.js"></script>
+	<script type="text/javascript" src="js/translations.js"></script>
+	
+	<script type="text/javascript">
+	//alert("here1");
+		//pagebeforecreate
+		//pageinit
+		$(document).live( 'pagebeforecreate',function(event){
+			//alert( 'pagebeforecreate CONFIG by jQuery Mobile!' );
+			//$("#menu").text(getTranslation('menu'));
+			
+			
+			$("#lnkabout").text(getTranslation("About this app"));
+			$("#lnkclear").text(getTranslation("Reset settings"));
+			
+			$("#lnkhome").text(getTranslation("Home"));
+			//lnkLangswitch
+			$("#lnkLangswitch").text(getTranslation("Switch language"));
+			
+			$("#lnkLangswitchnl").text(getTranslation("Switch to") + " Nederlands");
+			$("#lnkLangswitchfr").text(getTranslation("Switch to")+ " Français");
+			$("#lnkLangswitchen").text(getTranslation("Switch to")+ " English");
+			$("#lnkLangswitchde").text(getTranslation("Switch to")+ " German");
+			
+				
+		});
+		
+		//$(document).live( 'pageshow',function(event){
+			//alert( 'pageshow CONFIG by jQuery Mobile!' );
+		//	$("#menu").text(getTranslation('menu'));
+			//$("#menu").buttonMarkup({ icon: "back", iconpos: "left", rel: "back", inline: true, mini: true});
+	//		
+		//	$("#searchbarcode").text(getTranslation("Search barcode")+":");
+		//	$("#btnSearch").text(getTranslation('search'));
+	//		$("#menu").click(function(){
+				//window.location = "config.html";
+	//		});
+		//});
+		
+		
+            function onBodyLoad(){
+		//firstLoad();
+            }
+            
+	    
+	    function switchLang(lang) {
+		//alert(lang);
+		localStorage.setItem("lang",lang);
+		parseTranslationXMLToLocalStorage();
+		alert("Done");
+		//window.location = "config.html";
+	    }
+            
+        </script>
+        
+        <title>Arduimotic</title>    </head>
+     <body onload="onBodyLoad()">
+        <div data-role="page" data-theme="a" data-content-theme="a">
+            <div data-theme="a" data-role="header">
+               <!-- <a href="#" data-role="button" data-icon="back" data-transition="fade" data-direction="reverse" data-rel="back">back</a> -->           
+                <h1>
+                    Arduimotic menu
+                </h1>
+                <a id="menu" href="config.html" data-role="button" data-icon="gear" data-transition="fade" class="ui-btn-right">menu</a>  
+            </div> 
+            
+            <div data-role="content">
+                <ul data-role="listview" data-theme="c">
+                   <!-- <li><a href="home.html">Phone Scan</a></li>-->
+                    <li><a id="lnkhome" href="index.html" rel="external">bediening</a</li>
+                   <!--  <li><a href="verify2.html" rel="external">Manual scan2</a</li>
+                      <li><a href="verify3.html" rel="external">Manual scan3</a</li>
+                      <li><a href="verify4.html" rel="external">Manual scan4</a</li>-->
+                   <!-- <li><a href="history.html" rel="external">Scan history</a></li>-->
+                    <li><a id="lnkabout" href="about.html" >About this app</a></li>
+		     <li><a id="lnkclear" onclick="clearSettings()" href="#" >Reset settings</a></li>
+		    
+			<li><a id="lnkLangswitch" >Switch language</a>
+			<ul data-role="listview" data-theme="c">
+				<li><a id="lnkLangswitchnl" onclick="switchLang('nl')" href="#">Switch to nl</a></li>
+				<li><a id="lnkLangswitchfr" onclick="switchLang('fr')" href="#" >Switch to fr</a></li>
+				<li><a id="lnkLangswitchen" onclick="switchLang('en')" href="#" >Switch to en</a></li>
+				<li><a id="lnkLangswitchde" onclick="switchLang('ge')" href="#" >Switch to de</a></li>
+		       </ul>
+		      </li>
+		      
+		     <!-- <li><a id="lnkLangswitchfr" onclick="switchLang('fr')" href="#" >Switch direct fr</a></li>-->
+                 </ul>
+            </div>
+            
+        </div>
+    </body>
+</html>

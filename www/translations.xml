@@ -1,0 +1,214 @@
+﻿<TRANSLATIONS>
+	<TRANSLATION name="Search barcode">
+		<LANGUAGE value="nl">Reservatie zoeken</LANGUAGE>
+		<LANGUAGE value="fr">Valider code à barres</LANGUAGE>
+		<LANGUAGE value="ge">Suche Barcode</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="menu">
+		<LANGUAGE value="nl">menu</LANGUAGE>
+		<LANGUAGE value="fr">menu</LANGUAGE>
+		<LANGUAGE value="ge">menu</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Back">
+		<LANGUAGE value="nl">Vorige</LANGUAGE>
+		<LANGUAGE value="fr">Retour</LANGUAGE>
+		<LANGUAGE value="ge">Zurück</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="search">
+		<LANGUAGE value="nl">zoeken</LANGUAGE>
+		<LANGUAGE value="fr">chercher</LANGUAGE>
+		<LANGUAGE value="ge">suchen</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="About this app">
+		<LANGUAGE value="nl">Over deze app</LANGUAGE>
+		<LANGUAGE value="fr">Concernant le app</LANGUAGE>
+		<LANGUAGE value="ge">Über diese App</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Reset settings">
+		<LANGUAGE value="nl">Instellingen resetten</LANGUAGE>
+		<LANGUAGE value="fr">Effacer me cache</LANGUAGE>
+		<LANGUAGE value="ge">Einstellungen zurücksetzen</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Wrong complex">
+		<LANGUAGE value="nl">Verkeerd complex</LANGUAGE>
+		<LANGUAGE value="fr">Complex n'est pas juste</LANGUAGE>
+		<LANGUAGE value="ge">Falsche komplexen</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="valid in">
+		<LANGUAGE value="nl">geldig in</LANGUAGE>
+		<LANGUAGE value="fr">valable en</LANGUAGE>
+		<LANGUAGE value="ge">gültig in</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Valid internet reservation">
+		<LANGUAGE value="nl">Geldige internet reservatie</LANGUAGE>
+		<LANGUAGE value="fr">Réservation internet valide</LANGUAGE>
+		<LANGUAGE value="ge">Gültig Internet-Reservierung</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="tickets">
+		<LANGUAGE value="nl">tickets</LANGUAGE>
+		<LANGUAGE value="fr">tickets</LANGUAGE>
+		<LANGUAGE value="ge">tickets</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="ticket">
+		<LANGUAGE value="nl">ticket</LANGUAGE>
+		<LANGUAGE value="fr">ticket</LANGUAGE>
+		<LANGUAGE value="ge">ticket</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Validate everything">
+		<LANGUAGE value="nl">Alles valideren</LANGUAGE>
+		<LANGUAGE value="fr">Valider tous</LANGUAGE>
+		<LANGUAGE value="ge">Alles valideren</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Split pickup">
+		<LANGUAGE value="nl">Split pickup</LANGUAGE>
+		<LANGUAGE value="fr">Split pickup</LANGUAGE>
+		<LANGUAGE value="ge">Split pickup</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Validate selection">
+		<LANGUAGE value="nl">Selectie valideren</LANGUAGE>
+		<LANGUAGE value="fr">Validez la sélection</LANGUAGE>
+		<LANGUAGE value="ge">Validate Auswahl</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Verkeerd complex!">
+		<LANGUAGE value="nl">Verkeerd complex!</LANGUAGE>
+		<LANGUAGE value="fr">Faux complexe!</LANGUAGE>
+		<LANGUAGE value="ge">Verkeerd complex!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="reeds gevalideerd!">
+		<LANGUAGE value="nl">Reeds gevalideerd!</LANGUAGE>
+		<LANGUAGE value="fr">Déjà validé!</LANGUAGE>
+		<LANGUAGE value="ge">already picked up!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Geldige internet reservatie">
+		<LANGUAGE value="nl">Geldige internet reservatie</LANGUAGE>
+		<LANGUAGE value="fr">Réservation internet valide</LANGUAGE>
+		<LANGUAGE value="ge">Geldige internet reservatie</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="done">
+		<LANGUAGE value="nl">Klaar!</LANGUAGE>
+		<LANGUAGE value="fr">Fait!</LANGUAGE>
+		<LANGUAGE value="ge">getan</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="No connection with gTicket">
+		<LANGUAGE value="nl">Geen verbinding met gTicket</LANGUAGE>
+		<LANGUAGE value="fr">Pas de connection vers gTicket</LANGUAGE>
+		<LANGUAGE value="ge">Keine Verbindung mit gTicket</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Probably no internet connection">
+		<LANGUAGE value="nl">Waarschijnlijk geen internetverbinding</LANGUAGE>
+		<LANGUAGE value="fr">Probablement pas de connexion internet</LANGUAGE>
+		<LANGUAGE value="ge">Wahrscheinlich keine Internet-Verbindung</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="No valid barcode!">
+		<LANGUAGE value="nl">Geen geldige barcode!</LANGUAGE>
+		<LANGUAGE value="fr">Pas de code à barres valide!</LANGUAGE>
+		<LANGUAGE value="ge">Kein gültiger Barcode!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Not found in gTicket!">
+		<LANGUAGE value="nl">Niet gevonden in gTicket!</LANGUAGE>
+		<LANGUAGE value="fr">Non trouvé dans gTicket!</LANGUAGE>
+		<LANGUAGE value="ge">Nicht in gTicket gefunden!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Valid internet reservation">
+		<LANGUAGE value="nl">Geldige internet reservatie</LANGUAGE>
+		<LANGUAGE value="fr">Réservation Internet valide</LANGUAGE>
+		<LANGUAGE value="ge">Gültig Internet Reservierung</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="already validated!">
+		<LANGUAGE value="nl">reeds gevalideerd!</LANGUAGE>
+		<LANGUAGE value="fr">déjà validé!</LANGUAGE>
+		<LANGUAGE value="ge">bereits validiert!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="all tickets picked up">
+		<LANGUAGE value="nl">alle tickets afgehaald</LANGUAGE>
+		<LANGUAGE value="fr">tous les billets ramassés</LANGUAGE>
+		<LANGUAGE value="ge">alle Tickets abgeholt</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="partly validated!">
+		<LANGUAGE value="nl">deels afgehaald</LANGUAGE>
+		<LANGUAGE value="fr">partiellement validé!</LANGUAGE>
+		<LANGUAGE value="ge">teilweise validiert!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Reservation expired!">
+		<LANGUAGE value="nl">Reservering vervallen!</LANGUAGE>
+		<LANGUAGE value="fr">Réservation dépassée!</LANGUAGE>
+		<LANGUAGE value="ge">Reservierung abgelaufen!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Wrong complex">
+		<LANGUAGE value="nl">Verkeerd complex</LANGUAGE>
+		<LANGUAGE value="fr">Mauvais site</LANGUAGE>
+		<LANGUAGE value="ge">Falsche komplex</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="No valid internet reservation!">
+		<LANGUAGE value="nl">Geen geldige internet reservatie</LANGUAGE>
+		<LANGUAGE value="fr">Pas de réservation Internet valide!</LANGUAGE>
+		<LANGUAGE value="ge">Kein gültiger Internet-Reservierung!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="service down!">
+		<LANGUAGE value="nl">geen verbinding</LANGUAGE>
+		<LANGUAGE value="fr">Pas de connection</LANGUAGE>
+		<LANGUAGE value="ge">Kein conneektzioné</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Barcode scanner">
+		<LANGUAGE value="nl">Barcode scanner</LANGUAGE>
+		<LANGUAGE value="fr">Barcode scanner</LANGUAGE>
+		<LANGUAGE value="ge">Barcode scanner</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Switch language">
+		<LANGUAGE value="nl">Wissel van taal</LANGUAGE>
+		<LANGUAGE value="fr">Changer la langue</LANGUAGE>
+		<LANGUAGE value="ge">Sprache wechseln</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Switch to">
+		<LANGUAGE value="nl">Wissel naar</LANGUAGE>
+		<LANGUAGE value="fr">Changer vers</LANGUAGE>
+		<LANGUAGE value="ge">Wechseln</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Validation successful">
+		<LANGUAGE value="nl">Validatie succesvol</LANGUAGE>
+		<LANGUAGE value="fr">Validation réussie</LANGUAGE>
+		<LANGUAGE value="ge">Validierung erfolgreich</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Pickup">
+		<LANGUAGE value="nl">Afhalen</LANGUAGE>
+		<LANGUAGE value="fr">Pickup</LANGUAGE>
+		<LANGUAGE value="ge">Abholung</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Chair">
+		<LANGUAGE value="nl">Stoel</LANGUAGE>
+		<LANGUAGE value="fr">Siège</LANGUAGE>
+		<LANGUAGE value="ge">Sitz</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Tariff">
+		<LANGUAGE value="nl">Prijs</LANGUAGE>
+		<LANGUAGE value="fr">Tarif</LANGUAGE>
+		<LANGUAGE value="ge">Tarif</LANGUAGE>
+	</TRANSLATION>
+		<TRANSLATION name="validate all">
+		<LANGUAGE value="nl">Valideer alles</LANGUAGE>
+		<LANGUAGE value="fr">Valider tous</LANGUAGE>
+		<LANGUAGE value="ge">Alle validieren</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Price">
+		<LANGUAGE value="nl">Prijs</LANGUAGE>
+		<LANGUAGE value="fr">Prix</LANGUAGE>
+		<LANGUAGE value="ge">Preis</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="all tickets picked up">
+		<LANGUAGE value="nl">alle tickets opgehaald</LANGUAGE>
+		<LANGUAGE value="fr">tous les billets ramassés</LANGUAGE>
+		<LANGUAGE value="ge">Alle Tickets abgeholt</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Already validated by ATM!">
+		<LANGUAGE value="nl">Reeds gevalideerd door ATM!</LANGUAGE>
+		<LANGUAGE value="fr">Déjà validé par ATM!</LANGUAGE>
+		<LANGUAGE value="ge">Bereits von ATM validiert!</LANGUAGE>
+	</TRANSLATION>
+	<TRANSLATION name="Ticket(s) already printed by ATM">
+		<LANGUAGE value="nl">Ticket reeds geprint</LANGUAGE>
+		<LANGUAGE value="fr">Billet(s) déjà imprimé par ATM!</LANGUAGE>
+		<LANGUAGE value="ge">Ticket(s) bereits gedruckt von ATM validiert!</LANGUAGE>
+	</TRANSLATION>
+</TRANSLATIONS>
+	
+	

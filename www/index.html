@@ -1,0 +1,137 @@
+
+ <!DOCTYPE html>
+<html>
+    <head>
+        
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+		<meta name="viewport" content="width=device-width" />
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.css" />
+
+        
+        <script type="text/javascript" src="js/webservice.js"></script>
+	<script type="text/javascript" src="js/reusable.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquerymobile.js"></script>
+	<script type="text/javascript" src="js/translations.js"></script>
+
+	
+	<script type="text/javascript">
+	       // $(document).bind('pageinit') = function() {
+		//	//alert("here");
+		//	$("#searchbarcode").text(getTranslation("Search barcode")+":");
+		//	$("#menu").text(getTranslation('menu'));
+		//}
+		//$(document).live( 'pageinit',function(event){
+		//pagecreate pageinit pagebeforecreate
+		
+		//pagecreate
+		
+		$(document).live( 'pagecreate',function(event){
+			//alert( 'This page was just enhanced by jQuery Mobile!' );
+			//
+			$("#lblHome").text(getTranslation("The internet of things")+":");
+			//$("#btnSearch").text(getTranslation('search'));
+			
+			//$("#btnSearch").button('refresh');
+			//$("#menu").text(getTranslation('menu'));
+			//$("#menu").click(function(){
+			//	window.location = "config.html";
+			//}
+		});
+			//lnkbarcodescanner
+		//	$("#lnkbarcodescanner").text(getTranslation('menu'));
+		//	$("#menu").text(getTranslation('menu'));
+		//	$(document).hide().trigger( 'updatelayout' );
+			
+	//		$("#menu").text(getTranslation('menu'));
+			//$("#menu").buttonMarkup({ icon: "back", iconpos: "left", rel: "back", inline: true, mini: true});
+	//		
+		//	$("#searchbarcode").text(getTranslation("Search barcode")+":");
+		//	$("#btnSearch").text(getTranslation('search'));
+	//	//	$("#menu").click(function(){
+				//window.location = "config.html";
+	//		});
+		//});
+		
+		//$(document).live( 'pagehide',function(event, ui){
+		//	alert( 'This page was just shown VERIFY: '+ ui.nextPage);
+		//	$("#menu").text(getTranslation('menu'));
+		//	alert(getTranslation('menu'));
+			
+		//	$("#searchbarcode").text(getTranslation("Search barcode")+":");
+		//	$("#btnSearch").text(getTranslation('search'));
+		//});
+	 
+            function onBodyLoad(){
+	    
+		
+		
+		//to focus etc...
+                //firstLoad();
+		
+		//call function
+		//CallTestWebService("3","1");
+		//alert("wait");
+		//CallTestWebService("3","0");
+                
+            }
+            
+            
+        </script>
+   
+       
+        
+        <title>Arduimotic</title>    </head>
+    <body onload="onBodyLoad()" onkeydown="leTyping(event)">
+         <div data-role="page" data-theme="a" data-content-theme="a" onclick="focusCall();"> <!--onclick="focusCall();"-->
+             <div data-theme="a" data-role="header">
+                 <!--<a href="javascript:javascript:history.go(-1)" data-role="button" data-icon="back" data-transition="fade">back</a>  -->          
+                 <img src="img/logo.png" class="ui-btn-left"></img>
+                 <h1>
+                     Arduimotic interface
+                 </h1>
+
+                 <a id="menu" href="config.html" data-role="button" data-icon="gear" data-transition="fade" class="ui-btn-right" rel="external">menu</a>  
+		 
+		<!--  <input type="button" data-mini="true" id="menu" data-inline="true" data-icon="gear" data-rel="back" data-transition="fade" class="ui-btn-right" value="setingsblablabla"/>-->
+		<!-- <a id="menudummy" href="config.html"  data-transition="slide" rel="external"></a>-->
+             </div> 
+             
+             <div data-role="content">
+                 <label id="lblHome" for="barcode" data-transition="fade">control things:</label>
+                 <!--<form name="myform">-->
+                 
+               <!--  </form>-->
+                 
+                 <!--<input type="button" id="btnSearch" onclick="scanBarcode(false);" value="zken" data-theme="b" text="zooooeeeken"></input>
+                 -->
+                <input type="button" id="btnled3aan" onclick="CallTestWebService('3','0');" value="lamp 3 aan" data-theme="b" text="lamp 3 uit"></input>
+		<input type="button" id="btnled3uit" onclick="CallTestWebService('3','1');" value="lamp 3 uit" data-theme="b" text="lamp 3 aan"></input>
+		<input type="button" id="btnled4aan" onclick="CallTestWebService('4','0');" value="lamp 4 aan" data-theme="b" text="lamp 4 uit"></input>
+		<input type="button" id="btnled4uit" onclick="CallTestWebService('4','1');" value="lamp 4 uit" data-theme="b" text="lamp 4 aan"></input>
+		<input type="button" id="btnled34aan" onclick="CallTestWebService('3','0');CallTestWebService('4','0');" value="lamp 3&4 aan" data-theme="b" text="lamp 34 aan"></input>
+		<input type="button" id="btnled34uit" onclick="CallTestWebService('3','1');CallTestWebService('4','1');" value="lamp 3&4 uit" data-theme="b" text="lamp 34 uit"></input>
+		<!--<input type="button" id="btnled3uit" onclick="CallTestWebService('3','1');" value="lamp3uit" data-theme="b" text="lamp 3 uit"></input>-->
+		
+                 <div id="outputview">
+                    <!-- <ul data-role='listview' data-theme='a'>-->
+                   <!--  </ul>-->
+					 
+                 </div>
+				 
+
+                 
+             </div>
+			 
+
+
+			 
+			 <div data-role="footer" data-position="fixed" id="footerbar">
+			</div><!-- /footer -->
+             
+
+
+        </div>
+    </body>
+</html>
